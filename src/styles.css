@@ -1,0 +1,49 @@
+body {
+    color: #fff;
+    background: #242424;
+}
+
+h1{
+    text-align:center;
+    font-size: 5em;
+    font-family: "cursive", Brush Script MT, Brush Script Std, cursive;
+    font-style: italic;
+}
+
+.controls {
+    font-style: normal;
+    font-family: "Times New Roman";
+    display: flex;
+    justify-content: center;
+}
+.controls select {
+    margin: 0 10px;
+}
+.chord-notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Times New Roman";
+    font-style: normal;
+
+}
+.chord-notes p {
+    margin: 10px 0;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.buttons button {
+    flex-grow: 0;
+    min-width: 400px;
+    height: 80px;
+    font-size: 2em;
+    background: teal;
+    border: none;
+    color: #fff;
+    margin: 10px;
+    font-family: "Times New Roman";
+}
