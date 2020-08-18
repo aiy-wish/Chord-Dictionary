@@ -13,5 +13,8 @@
     "@tonaljs/chord-dictionary": "^3.4.9",
     "@tonaljs/tonal": "^4.0.2",
     "howler": "^2.2.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
